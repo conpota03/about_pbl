@@ -9,5 +9,5 @@ function go_forward() {
 function go_back() {
     imagesNo--;
     document.getElementById("images").src = "images/pblPL0" + imagesNo + ".png";
-    document.getElementById("img-No").innerText = imagesNo + " / 7 ";
+    document.getElementById("img-No").innerText = imagesNo + " / 6 ";
 }
