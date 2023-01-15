@@ -57,7 +57,7 @@
      flex-direction: row;
      justify-content: flex-start;
      width: auto;
-     height: 5vw;
+     height: 58px;
  }
  
  .header-logo:hover {
@@ -70,8 +70,9 @@
      flex-direction: row;
      justify-content: flex-start;
      color: #82664C;
-     font-size: 2.5vw;
+     font-size: 20px;
      padding: 2rem;
+     align-items: center;
  }
  
  .header-list li:hover {
@@ -96,6 +97,8 @@
  
  .main-images {
      width: 100%;
+     height: auto;
+     max-width: 100%;
      height: auto;
  }
  
@@ -129,6 +132,7 @@
      line-height: auto;
      letter-spacing: px;
  }
+ /* ボジション決め */
  
  .body-link {
      display: flex;
