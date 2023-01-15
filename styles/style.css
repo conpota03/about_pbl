@@ -18,7 +18,7 @@ img {
 }
 
 h1 {
-    color: ##000000;
+    color: #090501;
     font-family: sans-serif;
 }
 
@@ -52,11 +52,9 @@ h1 {
 
 .link {
     font-size: 50px;
-    line-height: auto;
-    letter-spacing: px;
 }
 
-. .header {
+.header {
     background-color: #FFFBF6;
     color: #82664C;
     height: 110px;
@@ -93,12 +91,9 @@ h1 {
 p,
 li {
     font-size: 16px;
-    line-height: auto;
-    letter-spacing: px;
 }
 
 input {
-    float: center;
     font-size: 20px;
     margin: 0 auto;
     color: #090501;
@@ -142,7 +137,6 @@ ul {
     font-size: 35px;
     text-align: center;
     margin: 0;
-    letter-spacing: px;
 }
 
 
