@@ -17,6 +17,11 @@ img {
     height: auto;
 }
 
+h1 {
+    color: ##000000;
+    font-family: sans-serif;
+}
+
 .main-body {
     background-color: #E2F1D9;
     display: flex;
