@@ -32,6 +32,7 @@ function init() {
     }
 
     fwdBtn.onclick = fwdBtnClick;
+    /*無効化*/
 
     function fwdBtnClick() {
         imagesNo++;
