@@ -127,7 +127,7 @@ ul {
     flex-wrap: wrap;
 }
 
-.trailer {
+#trailerimg {
     width: 256px;
     height: 144px;
 }
@@ -174,4 +174,42 @@ div {
     display: block;
     margin: auto;
     max-width: 1100px;
+}
+
+.trailer {
+    width: 256px;
+    height: 144px;
+}
+
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+}
+
+.popup-img {
+    max-width: 105%;
+    width: 100%;
+    height: auto;
+}
+
+.popup-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
 }

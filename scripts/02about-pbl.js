@@ -45,3 +45,25 @@ function init() {
         }
     }
 }
+
+const imgs = document.querySelectorAll(".trailer");
+const popupOverlay = document.querySelector(".popup-overlay");
+const popupImg = document.querySelector(".popup-img");
+const popupClose = document.querySelector(".popup-close");
+
+imgs.forEach((img) => {
+    img.addEventListener("click", function() {
+        popupImg.src = this.src;
+        popupOverlay.style.display = "block";
+    });
+});
+// ポップアップを閉じる
+popupClose.addEventListener("click", function() {
+    popupOverlay.style.display = "none";
+});
+
+popupOverlay.addEventListener("click", function(e) {
+    if (e.target === this) {
+        popupOverlay.style.display = "none";
+    }
+})
