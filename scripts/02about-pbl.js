@@ -8,13 +8,13 @@ function init() {
     var revBtn = document.getElementById("rev_btn");
     var fwdBtn = document.getElementById("fwd_btn");
 
-    for (var i = 0; i < 7; i++) {
+    for (var i = 0; i < 8; i++) {
         myImg[i] = document.createElement("img");
         myImg[i].src = "images/pblPL0" + (i + 1) + ".png";
     }
 
     function showImg() {
-        myNo.innerHTML = imagesNo + " / 7 ";
+        myNo.innerHTML = imagesNo + " / 8 ";
         myimages.src = myImg[imagesNo - 1].src;
     }
 
